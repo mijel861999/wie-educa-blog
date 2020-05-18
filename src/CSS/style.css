@@ -43,7 +43,9 @@ nav .nav-options-container a{
     font-size: var(--normal);
 }
 
-
+nav .nav-options-container a:hover{
+    color: #2f6b9a;
+}
 
 nav .nav-logo-container a img{
     height: 50px;
