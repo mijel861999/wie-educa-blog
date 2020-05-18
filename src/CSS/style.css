@@ -4,6 +4,7 @@
     --black-font-color: #241f21;
     --padding: 10px;
     --green: #28863e;
+    --white: #f9f8f7;
 }
 
 /*Generales*/
@@ -89,3 +90,40 @@ main{
     background: black;
 }
 /*Aquí termina el main section*/
+
+/*Aquí comienza el footer*/
+.section-information-container{
+    background-color: var(--black-font-color);
+    display: flex;
+    justify-content: space-around;
+    color: var(--white);
+    font-size: var(--normal);
+    padding: 40px 50px 40px 50px;
+}
+
+.footer-logo-container a img{
+    height: 50px;
+}
+
+.footer-information-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-information-container a{
+    color: var(--white);
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+
+.footer-information-container a:hover{
+    color:#2f6b9a;
+}
+
+.footer-information-container {
+    font-weight: 700;
+}
+
+
+
+/*Aquí termina el footer*/
