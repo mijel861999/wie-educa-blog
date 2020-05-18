@@ -1,0 +1,89 @@
+/*Vairables*/
+:root{
+    --normal: 14px;
+    --black-font-color: #241f21;
+    --padding: 10px;
+    --green: #28863e;
+}
+
+/*Generales*/
+
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Aquí comineza el header*/
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+
+nav .nav-options-container a{
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    font-weight: 700;
+    color: var(--black-font-color);
+    font-size: var(--normal);
+}
+
+
+
+nav .nav-logo-container a img{
+    height: 50px;
+    padding-right: 30px;
+}
+
+.contact-options-container{
+    padding-right: 100px;
+}
+
+.contact-options-container a{
+    font-size: var(--normal);
+    font-weight: 500;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+.contact-options-container a:hover{
+    text-decoration: underline;
+}
+
+.contact-options-container .button{
+    background-color: var(--green);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: 700;
+    border: 0;
+}
+
+.contact-options-container .button:hover{
+    background: #216d33;
+    cursor: pointer;
+}
+
+/*Aquí termina el header*/
+
+
+
+/*Aquí comienza el main section*/
+main{
+    background: black;
+}
+/*Aquí termina el main section*/
