@@ -28,6 +28,8 @@ header{
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #e0dfdf;
 }
 
 nav{
@@ -86,9 +88,7 @@ nav .nav-logo-container a img{
 
 
 /*Aquí comienza el main section*/
-main{
-    background: black;
-}
+
 /*Aquí termina el main section*/
 
 /*Aquí comienza el footer*/
@@ -123,6 +123,13 @@ main{
 .footer-information-container {
     font-weight: 700;
 }
+
+.section-credits-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
 
 
 
