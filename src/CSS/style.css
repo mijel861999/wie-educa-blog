@@ -2,6 +2,7 @@
 :root{
     --normal: 14px;
     --black-font-color: #241f21;
+    
     --padding: 10px;
     --green: #28863e;
     --white: #f9f8f7;
@@ -124,13 +125,49 @@ nav .nav-logo-container a img{
     font-weight: 700;
 }
 
+
+/*Segunda parte de footer*/
+
 .section-credits-container{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
+.language-change-container a{
+    font-size: var(--normal);
+    display: flex;
+    align-items: center;
+}
 
+.section-language-container p{
+    font-size: 10px;
+    color: #504c4d;
+}
 
+.information-container{
+    display: flex;
+    align-items: center;
+}
+
+.information-container a{
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #504c4d;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.social-network-icons-container{
+    display: flex;
+    align-items: center;
+}
+
+.social-network-icons-container a{
+    padding-right: 10px;
+}
 
 
 /*Aquí termina el footer*/
