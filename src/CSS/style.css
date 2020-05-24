@@ -90,7 +90,27 @@ nav .nav-logo-container a img{
 
 /*Aquí comienza el main section*/
 
+.main-banner{
+    background: blue;
+    display: flex;
+
+}
+
+.banner-image-container img{
+    max-width: 320px;
+}
+
+
+
+
+
+
+
 /*Aquí termina el main section*/
+
+
+
+
 
 /*Aquí comienza el footer*/
 .section-information-container{
